@@ -4,4 +4,5 @@ const app = new Hono()
 app.get('/', (c) => c.json('Authentication Endpoint'))
 
 
+
 export default app
