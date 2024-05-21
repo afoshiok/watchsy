@@ -1,18 +1,20 @@
 {
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "test": "jest"
   },
   "dependencies": {
     "@clerk/backend": "1.1.5",
+    "@hono/clerk-auth": "2.0.0",
     "@hono/node-server": "^1.11.1",
     "@hono/zod-validator": "^0.2.1",
-    "@hono/clerk-auth": "2.0.0",
     "@prisma/client": "^5.14.0",
     "dotenv": "^16.4.5",
     "hono": "^4.3.7"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
+    "jest": "^29.7.0",
     "prisma": "^5.14.0",
     "tsx": "^4.7.1"
   }
